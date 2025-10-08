@@ -6,9 +6,11 @@ A Flutter web application that displays posts from JSONPlaceholder API with rout
 
 ✨ **URL Routing**
 
-- Dashboard: `http://localhost:<port>/#/`
-- Posts List: `http://localhost:<port>/#/posts`
-- Post Detail: `http://localhost:<port>/#/posts/:id`
+- Dashboard: `http://localhost:8080/` or `http://localhost:8080/#/`
+- Posts List: `http://localhost:8080/#/posts`
+- Post Detail: `http://localhost:8080/#/posts/:id`
+
+> **Note**: The app uses hash-based routing. When the app starts, it automatically loads at the root (`/`) which displays the Dashboard. You can access it via the root URL or explicitly with `/#/`.
 
 📊 **Dashboard**
 
